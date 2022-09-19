@@ -1,0 +1,20 @@
+#settings:
+#  gas_limit: "100000000000"
+networks:
+  default: optimism-mainnet-fork
+  optimism-mainnet-fork:
+    weth_token: '0x4200000000000000000000000000000000000006'
+    pool_addresses_provider: '0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb'
+    dai_usd_price_feed: '0x8dBa75e83DA73cc766A7e5a0ee71F656BAb470d6'
+    eth_usd_price_feed: '0x13e3Ee699D1909E989722E753853AE30b17e08c5'
+    op_usd_price_feed: '0x0D276FC14719f9292D5C1eA2198673d1f4269246'
+    dai_token: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1'
+  goerli:
+    weth_token: '0x2e3A2fb8473316A02b8A297B982498E661E1f6f5' # WETH-TestnetMintableERC20-Aave
+    pool_addresses_provider: '0xc4dCB5126a3AfEd129BC3668Ea19285A9f56D15D'
+    dai_usd_price_feed: '0x0d79df66BE487753B02D015Fb622DED7f0E9798d'
+    eth_usd_price_feed: '0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e'
+    dai_token: '0xDF1742fE5b0bFc12331D8EAec6b478DfDbD31464'
+dotenv: .env
+wallets:
+  account_name: metamask_1
